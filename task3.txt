@@ -1,0 +1,4 @@
+airport, JFK; airport, DTW; airport, SFO; connected, JFK DTW; connected, DTW JFK; connected, DTW SFO; connected, SFO DTW; plane, P; at, P JFK; cargo, C; at, C SFO
+at, C JFK
+flyplane, p x y | at, p x; plane, p; connected, x y; airport, x; airport, y | at, p y | at, p x
+flycargo, p c x y | at, p x; plane, p; at, c x; cargo, c; connected, x y; airport, x; airport, y | at, p y; at, c y | at, p x; at, c x

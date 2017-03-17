@@ -1,0 +1,4 @@
+at, C JFK; at, P JFK; plane, P; cargo, C; airport, JFK; airport, SFO; airport, DTW
+at, P DTW; at, C SFO
+flycargo, p c y z | plane, p; cargo, c; airport, y; airport, z; at, c y; at, p y | at, p z; at, c z | at, c y; at, p y
+flyplane, p x y | plane, p; airport, x; airport, y; at, p x | at, p y | at, p x

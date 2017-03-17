@@ -1,0 +1,4 @@
+Block, A; Block, B; Block, C; On, A T; On, B T; On, C A; Clear, B; Clear, C; Table, T
+On, A B; On, B C
+Move, b x y | On, b x; Clear, b; Clear, y; Block, b; Block, y | On, b y; Clear, x | On, b x; Clear, y
+MoveToTable, b x t | On, b x; Clear, b; Block, b; Block, x; Table, t | On, b t; Clear, x | On, b x

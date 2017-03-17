@@ -1,0 +1,4 @@
+Cargo, UPS; Cargo, FEDEX; Airport, JFK; Airport, SFO; Airport, DTW; Airport, LAX; Jet, B747; Jet, A380; At, UPS SFO; At, FEDEX DTW; At, B747 LAX; At, A380 JFK
+At, UPS DTW; At, FEDEX LAX; At, B747 JFK; At, A380 SFO
+Fly, W X Y Z | Cargo, W; Jet, X; Airport, Y; Airport, Z; At, W Y; At, X Y | At, W Z; At, X Z | At, X Y; At, W Y
+Move, X Y Z | Jet, X; Airport, Y; Airport, Z; At, X Y | At, X Z | At, X Y

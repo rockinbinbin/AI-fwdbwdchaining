@@ -1,0 +1,3 @@
+Cargo, A; Cargo, B; Cargo, C; Airport, JFK; Airport, SFO; Airport, DTW; Airport, LAX; At, A SFO; At, B DTW; At, C JFK
+At, A DTW; At, B LAX; At, C SFO
+Fly, X Y Z | Cargo, X; Airport, Y; Airport, Z; At, X Y | At, X Z | At, X Y
